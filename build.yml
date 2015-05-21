@@ -1,17 +1,17 @@
 #sdk: "/Users/home/.rvm/gems/ruby-1.9.3-p551@rms5.0.25/gems/rhodes-5.0.25"
 sdkversion: 5.0.0
-name: testapp
+name: testapp123
 version: 1.0
 vendor: rhomobile
 build: debug
 applog: rholog.txt
 iphone:
   configuration: Release
-  sdk: iphonesimulator8.0
+  sdk: iphoneos8.1
   provisionprofile:
   codesignidentity: iPhone Developer
   entitlements: ""
-  BundleIdentifier: com.rhomobile.testapp
+  BundleIdentifier: com.rhomobile.testapp123
   BundleURLScheme: testapp
   production:
     ipa_itunesartwork_image: "./production/iTunesArtwork.png"  
